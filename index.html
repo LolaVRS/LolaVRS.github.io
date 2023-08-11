@@ -11,22 +11,21 @@
 <body>
 <!--encabezado-->
     <header>
-        <div class="navegador" id="minavegador">
-            <a href="index.html"><img src="./imagenes/silueta-.png" alt="logo" class="logo">Ph.D Ajolotito</a>
-            <a href="Registro.html">Registrate</a>
-            <a href="#iniciarsecion">Iniciar sesión</a>
-            <div class="lista_desplegable_de_menu">
-                <button class="lista_desplegable_de_menutn">Cursos
-                    <i class="fa fa-caret-down"></i>
-                </butto>
-                <div class="lista_desplegable-content">
-                    <a href="#cursos">Matemáticas</a>
-                    <a href="#cursos">Biología</a>
-                    <a href="#cursos">Química</a>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active"><img src="./imagenes/silueta-.png" alt="logo" class="logo">Ph.D Ajolotito</a>
+            <a href="Registro.html">Regístrate</a>
+            <a href="#contact">Iniciar sesión</a>
+            <div class="dropdown">
+            <button class="dropbtn">Cursos 
+                <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-content">
+                    <a href="#">Matemáticas</a>
+                    <a href="#">Biología</a>
+                    <a href="#">Química</a>
                 </div>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFuction()">
-            <i class="fa fa-bars"></i></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
     </header>
     <br>
@@ -142,7 +141,7 @@
         </div>
     </footer>
 <!-- final del encabezado -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
     <script src="script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
 </body>
 </html>
