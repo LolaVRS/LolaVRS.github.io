@@ -84,23 +84,23 @@
 </style>
 <body>
     <!--encabezado-->
-    <header>
-        <div class="navegador" id="minavegador">
-            <a href="index.html"><img src="./imagenes/silueta-.png" alt="logo" class="logo">Ph.D Ajolotito</a>
-            <a href="#registro">Regístrate</a>
-            <a href="#iniciarsecion">Iniciar sesión</a>
-            <div class="lista_desplegable_de_menu">
-                <button class="lista_desplegable_de_menutn">Cursos
-                    <i class="fa fa-caret-down"></i>
-                </butto>
-                <div class="lista_desplegable-content">
-                    <a href="#cursos">Matemáticas</a>
-                    <a href="#cursos">Biología</a>
-                    <a href="#cursos">Química</a>
+        <header>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active"><img src="./imagenes/silueta-.png" alt="logo" class="logo">Ph.D Ajolotito</a>
+            <a href="Registro.html">Regístrate</a>
+            <a href="#contact">Iniciar sesión</a>
+            <div class="dropdown">
+                <!-- es el boton donde sale la lista desplegable hacia abajo -->
+            <button class="dropbtn">Cursos 
+                <i class="fa fa-caret-down"></i> <!--es el icono de -->
+            </button>
+                <div class="dropdown-content">
+                    <a href="#">Matemáticas</a>
+                    <a href="#">Biología</a>
+                    <a href="#">Química</a>
                 </div>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFuction()">
-            <i class="fa fa-bars"></i></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
     </header>
     <br>
